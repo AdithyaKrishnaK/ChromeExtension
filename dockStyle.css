@@ -4,6 +4,40 @@ body{
     background-size: 1100px 500px;
 
 }
+ul{
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 0px;
+    list-style-type: none;
+    margin-left: 0px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 464px;
+    background-color: #fff;
+    z-index: 5;
+    background-color: #00BFFF;
+    opacity: 0.9;
+}
+li{
+    color: #fff;
+    background-color: #00BFFF;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-right: 110px;
+    padding-bottom: 7px;    
+    display: block;
+}
+li img{
+    position: absolute;
+    right: 5px;
+    height: 20px;
+    width: 20px;
+}
 .holder{
     position: absolute;
     background-color: #fff;

@@ -7,6 +7,10 @@ for(var i=0;i<10;i++){
     var container = document.createElement("div");
     container.setAttribute("class", "holder");
     container.setAttribute("id", uid);
+    container.setAttribute("draggable", "true");
+    container.setAttribute("ondragstart", "drag(event)");
+    container.setAttribute("ondragover", "dragallow(event)");
+    container.setAttribute("ondrop", "drop(event)");
     document.body.appendChild(container);
     if (n==5) {
         n=0;       
@@ -20,6 +24,7 @@ for(var i=0;i<10;i++){
     var logo = document.createElement("img");
     logo.src = "google.png";
     logo.setAttribute("class", "icon");
+    logo.setAttribute("draggable", "false");
     document.getElementById(uid).appendChild(logo);
 
 
@@ -30,5 +35,20 @@ for(var i=0;i<10;i++){
     n=n+1;
     count = count +1;
 }
+}
 
+function set_value(v1,v2){
+    chrome.storage.syn.set({v1:v2});
+}
+
+function drag(ev){
+
+}
+
+function dragallow(event){
+
+}
+
+function drop(event){
+    
 }
