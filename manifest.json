@@ -5,7 +5,12 @@
   
 "description": "This extension enables user to access webpages quickly",
   
-"version": "1.0",
+"version": "1.0","content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["jquery.js", "p.js"]
+    }
+  ],
  
  "browser_action": {
     "default_icon": "icon.png",
