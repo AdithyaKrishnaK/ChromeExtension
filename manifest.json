@@ -1,13 +1,11 @@
 {
   "manifest_version": 2,
 
- 
  "name": "Dock",
   
 "description": "This extension enables user to access webpages quickly",
   
 "version": "1.0",
-
  
  "browser_action": {
     "default_icon": "icon.png",

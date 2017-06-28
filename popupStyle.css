@@ -1,16 +1,33 @@
 body{
     width: 355px;
     height: 40px;
-    padding:10px;
     border-radius: 4px;
-    opacity:0.7;
+    padding-bottom: 5px;
 }
 img{
-    opacity: 0.8;
+    opacity: 0.5;
     width: 30px;
     height: 30px;
     margin: 5px; 
+    position: relative;
+    top: 5px;
 }
 img:hover{
     opacity: 1;
+    animation: a;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes a{
+    from{
+        top:5px;
+    width: 30px;
+    margin: 5px;
+    height: 30px;}
+    to{
+        top:0px;
+    width: 35px;
+    margin: 0px;
+    height: 35px;}
 }
