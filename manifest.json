@@ -18,5 +18,5 @@
     "activeTab",
     "https://ajax.googleapis.com/"
   ],
-  "chrome_url_overrides":{"newtab":""}
+  "chrome_url_overrides":{"newtab":"dock.html"}
 }

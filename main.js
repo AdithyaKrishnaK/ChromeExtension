@@ -2,6 +2,7 @@ var n = 0;
 var r =0;
 var count =0;
 function loaded(){
+//document.getElementsByTagName("body").style.backgroundSize = window.innerHeight.toString()+" "+  window.innerWidth.toString();
 for(var i=0;i<10;i++){
     var uid = count.toString();;
     var container = document.createElement("div");
@@ -37,6 +38,10 @@ for(var i=0;i<10;i++){
 }
 }
 
+function setB(i){
+
+}
+
 function set_value(v1,v2){
     chrome.storage.syn.set({v1:v2});
 }
@@ -50,5 +55,20 @@ function dragallow(event){
 }
 
 function drop(event){
+    
+}
+var i=0;
+function setting(){
+    document.getElementsByClassName("set").style.animationName = "s";
+    document.getElementsByClassName("set").style.animationDuration = "4s";
+    document.getElementsByClassName("set").style.animationIterationCount = "1";
+    if (i==0) {
+        i=i+1;
+    }else {
+        document.getElementsByClassName("set").style.animationDirection = "reverse";
+        i=0;
+    }
+
+    
     
 }

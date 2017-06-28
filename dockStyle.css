@@ -1,26 +1,94 @@
 body{
     background-image:url("galaxy.jpg");
-    background-repeat:no-repeat;
-    background-size: 1100px 500px;
+    background-repeat:no-repeat;    
 
 }
-table{
-    padding-top: 20px;
+#settings{
+    position: fixed;
+    right: 10px;
+    top:10px;
+    height: 25px;
+    width: 25px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+@keyframes s{
+    from{visibility: hidden;
+    top:0px;
+    }
+    to {visibility: visible;
+    top: 40px;
+    right:20px;}
+}
+.set{    
     margin: 0px;
     padding-left: 0px;
     list-style-type: none;
     margin-left: 0px;
     display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 464px;
+    height: 540x;
     background-color: #fff;
     z-index: 5;
     background-color: #00BFFF;
     opacity: 0.9;
+    width:300px;
+    border-radius: 5px;
+    visibility:hidden;
 }
 .h{
+    color: #fff;
+    background-color: #00BFFF;
+    text-align: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-right: 110px;
+    padding-bottom: 7px;    
+    display: block;
+}
+
+#wallpaper{
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 2px;
+    height: 70px;
+    width: 100px;
+    z-index: 6;
+    position:  relative; 
+    opacity: 0.8;   
+}
+#wallpaper:hover{
+    opacity: 1;
+}
+#selected{
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 2px;
+    height: 70px;
+    width: 100px;
+    z-index: 6;
+    position:  relative; 
+    opacity: 1;
+}
+
+.white{
+    border-radius: 2px;
+    height:30px;
+    width: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    opacity: 0.9;
+}
+.white:hover{
+    opacity:1;
+}
+
+
+
+.c{
     color: #fff;
     background-color: #00BFFF;
     text-align: left;
@@ -32,14 +100,13 @@ table{
     padding-bottom: 7px;    
     display: block;
 }
-
 .holder{
     position: absolute;
     background-color: #fff;
     opacity: 0.7;
     width: 150px;
     height:100px;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .icon{
