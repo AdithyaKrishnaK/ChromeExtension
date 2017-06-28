@@ -4,7 +4,7 @@ body{
     background-size: 1100px 500px;
 
 }
-ul{
+table{
     padding-top: 20px;
     margin: 0px;
     padding-left: 0px;
@@ -20,7 +20,7 @@ ul{
     background-color: #00BFFF;
     opacity: 0.9;
 }
-li{
+.h{
     color: #fff;
     background-color: #00BFFF;
     text-align: left;
@@ -32,12 +32,7 @@ li{
     padding-bottom: 7px;    
     display: block;
 }
-li img{
-    position: absolute;
-    right: 5px;
-    height: 20px;
-    width: 20px;
-}
+
 .holder{
     position: absolute;
     background-color: #fff;
