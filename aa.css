@@ -1,9 +1,5 @@
 body,html{
-    background-image:url("cosmos.jpg");
     background-repeat:no-repeat;
-    height: 100%;
-    width: 100%;
-
 }
 #settings{
     position: fixed;
@@ -23,12 +19,23 @@ body,html{
 }
 .holder:hover{
   opacity:0.9; }
+.holder .dot{
+    background-repeat: no-repeat;
+    background-image: url("dot.png");
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    z-index: 5;
+    height:20px;
+    width: 20px;
+}
 .text{
     font-family: "Arial",sans-serif;
     text-align: center;
-    font-size: 18px;
+    font-size: 28px;
     opacity: 1;
     position: relative;
+    top:22px;
 }
 .icon{
     display: block;
@@ -77,6 +84,7 @@ body,html{
 }
 
 .white{
+    border: 1px solid #f8f8ff;
     border-radius: 2px;
     height:30px;
     width: 40px;
@@ -87,4 +95,33 @@ body,html{
 }
 .white:hover{
     opacity:1;
+}
+#mes{
+    visibility: hidden;
+    padding: 50px;
+    position: relative;
+    top:150px;
+    left:410px;
+    background-color: white;
+    height:100px;
+    width:500px;
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+         font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+input[type=text]:focus {
+    border-bottom: 3px solid #555;
 }

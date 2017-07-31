@@ -6,6 +6,9 @@
 "description": "This extension enables user to access webpages quickly",
 
 "version": "1.0",
+"permissions": [
+          "storage"
+        ],
    "chrome_url_overrides": {
     "newtab": "a.html"
   }
