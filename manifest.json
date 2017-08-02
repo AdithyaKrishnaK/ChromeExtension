@@ -4,7 +4,7 @@
  "name": "Dock",
 
 "description": "This extension enables user to access webpages quickly",
-
+"icons": { "16": "icon.png"},
 "version": "1.0",
 "permissions": [
           "storage"

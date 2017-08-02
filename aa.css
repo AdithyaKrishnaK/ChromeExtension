@@ -31,18 +31,22 @@ body,html{
 }
 .text{
     font-family: "Arial",sans-serif;
-    text-align: center;
+    left: 50px;
     font-size: 28px;
     opacity: 1;
-    position: relative;
+    position: absolute;
     top:22px;
+    z-index: 1;
 }
 .icon{
     display: block;
     padding-top: 10px;
-    margin: auto;
+    position: absolute;
+    top:25px;
+    left: 60px;
     height: 70px;
     width: 70px;
+    opacity: 0.7;
 }
 .s{
     visibility: hidden;
@@ -96,32 +100,79 @@ body,html{
 .white:hover{
     opacity:1;
 }
+button{
+    background-color:#4CAF50 ;
+    display: inline-block;
+    border: none;
+    color: white;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    opacity: 0.9;
+}
+button:hover{
+    opacity: 1;
+}
+#sb{
+     position:absolute;
+    bottom: 10px;
+    right:10px;
+    width: 50px;
+}
+#sb1{
+     position:absolute;
+    bottom: 10px;
+    right:90px;
+    width: 60px;
+}
 #mes{
-    visibility: hidden;
+    opacity: 0.9;
+    border-radius: 2px;
+    display: none;
     padding: 50px;
     position: relative;
     top:150px;
-    left:410px;
-    background-color: white;
-    height:100px;
-    width:500px;
+    left:420px;
+    background-color: tan;
+    height:220px;
+    z-index: 3;
+    width:540px;
      font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
-
+a{
+    color: black;
+    display:inline-block;
+    width:100%;
+    height:100%;
+    z-index: 0;
+}
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 2px 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     box-sizing: border-box;
     border: none;
+    background-color: tan;
     border-bottom: 2px solid #ccc;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     outline: none;
-         font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 input[type=text]:focus {
     border-bottom: 3px solid #555;
+}
+#txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 38px;
+    color: #ccc;
+    position: static;
+    top:0px;
+    left:10px;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
 }
