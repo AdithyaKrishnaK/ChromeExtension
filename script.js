@@ -168,7 +168,6 @@ document.getElementById("sb1").addEventListener("click",function () {
            var uid = i.toString();           
            document.getElementById(uid).style.opacity = "0.7";           
        } 
-    alert(ui);
     var da ={ltext:"",
          llink:"", 
          lcolor:""};
@@ -316,47 +315,47 @@ function displayText(){
 function setwallpaper(name) { 
     switch (name) {
         case "cosmos":
-            document.getElementById("b").style.backgroundImage="url('cosmos1.jpg')";
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/cosmos1.jpg')";
             chrome.storage.sync.set({"backimg": "cosmos"});            
             break;
         case "city":
-            document.getElementById("b").style.backgroundImage="url('city.jpg')";   
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/city.jpg')";   
             chrome.storage.sync.set({"backimg": "city"});          
             break;
         case "morning":
-            document.getElementById("b").style.backgroundImage="url('morning.jpg')";   
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/morning.jpg')";   
             chrome.storage.sync.set({"backimg": "morning"});          
             break;
         case "lights":            
-            document.getElementById("b").style.backgroundImage="url('north.jpg')";
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/north.jpg')";
             chrome.storage.sync.set({"backimg": "lights"}); 
             break;
         case "wallpaper":
-            document.getElementById("b").style.backgroundImage="url('wallpaper.jpg')";   
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/wallpaper.jpg')";   
             chrome.storage.sync.set({"backimg": "wallpaper"});          
             break;
         case "forest":
-            document.getElementById("b").style.backgroundImage="url('forest.jpg')";
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/forest.jpg')";
             chrome.storage.sync.set({"backimg": "forest"});             
             break;   
         case "beach":
-            document.getElementById("b").style.backgroundImage="url('beach.jpg')";   
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/beach.jpg')";   
             chrome.storage.sync.set({"backimg": "beach"});          
             break;
         case "whale":            
-            document.getElementById("b").style.backgroundImage="url('whale.jpg')";
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/whale.jpg')";
             chrome.storage.sync.set({"backimg": "whale"}); 
             break;
         case "para":
-            document.getElementById("b").style.backgroundImage="url('para.jpg')";   
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/para.jpg')";   
             chrome.storage.sync.set({"backimg": "para"});          
             break;
         case "rise":
-            document.getElementById("b").style.backgroundImage="url('rise.jpg')";
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/rise.jpg')";
             chrome.storage.sync.set({"backimg": "rise"});             
             break;               
         default:
-            document.getElementById("b").style.backgroundImage="url('north.jpg')";
+            document.getElementById("b").style.backgroundImage="url('./backgrouds/north.jpg')";
             break;
 
     }            
