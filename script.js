@@ -316,7 +316,7 @@ function displayText(){
 function setwallpaper(name) { 
     switch (name) {
         case "cosmos":
-            document.getElementById("b").style.backgroundImage="url('c.jpg')";
+            document.getElementById("b").style.backgroundImage="url('cosmos1.jpg')";
             chrome.storage.sync.set({"backimg": "cosmos"});            
             break;
         case "city":

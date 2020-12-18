@@ -89,8 +89,8 @@ body,html{
 
 .white{
     border: 1px solid #f8f8ff;
-    border-radius: 2px;
-    height:30px;
+    border-radius: 70%;
+    height:40px;
     width: 40px;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -127,13 +127,13 @@ button:hover{
 }
 #mes{
     opacity: 0.9;
-    border-radius: 2px;
+    border-radius:10%x;
     display: none;
     padding: 50px;
     position: relative;
-    top:150px;
-    left:420px;
-    background-color: tan;
+    top:50%;
+    left:32%;
+    background-color:#00BEFF;
     height:220px;
     z-index: 3;
     width:540px;
@@ -154,7 +154,7 @@ input[type=text] {
     margin-bottom: 20px;
     box-sizing: border-box;
     border: none;
-    background-color: tan;
+    background-color:#00BEFF;
     border-bottom: 2px solid #ccc;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -163,7 +163,7 @@ input[type=text] {
     font-size: 16px;
 }
 input[type=text]:focus {
-    border-bottom: 3px solid #555;
+    border-bottom: 3px solid #000;
 }
 #txt{
     font-family: Arial, Helvetica, sans-serif;
